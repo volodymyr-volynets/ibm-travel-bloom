@@ -1,0 +1,77 @@
+.navigation {
+    background-color: black;
+}
+.search_container {
+    background-color: white;
+    border-radius: 2em;
+}
+.nav_links a, .logo {
+    color: white;
+    text-decoration: none;
+}
+#logo_image {
+    background-color: white;
+}
+#search_text {
+    border: 1px solid white;
+    color: green;
+}
+#search_submit, #search_clear, #submit_form {
+    background-color: green;
+    color: white;
+}
+#search_icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+.bg, .bg_about_us, .bg_contact_us {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(0 0 0 / 25%),
+        rgb(0 0 255 / 50%)
+      ), url(https://images.stockcake.com/public/7/d/0/7d02183a-e56b-4c07-9725-508708655ba2/sunset-park-life-stockcake.jpg);
+    padding: 5em;
+    min-height: 40em;
+}
+.bg_about_us {
+    padding: 5em;
+    padding-top: 3em !important;
+}
+.bg_contact_us {
+    padding: 5em;
+}
+.bg h1, .bg div {
+    width: 10em;
+    color: white;
+}
+.bg_about_us h1, .bg_about_us div, .bg_contact_us h1, .contact_us_form {
+    color: white;
+}
+.social {
+    position: absolute;
+    width: 1.5em !important;
+    top: 20em;
+    left: 2em;
+    background-color: white;
+}
+.team_title {
+    border: 1px solid lightblue;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+}
+.team_responsible {
+    color: lightgrey;
+}
+.team_name {
+    color: white;
+}
+#name, #email, #message {
+    background: transparent;
+    border: 1px solid black;
+    width: 300px;
+}
+#submit_form {
+    width: 300px;
+}
