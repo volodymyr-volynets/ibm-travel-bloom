@@ -28,14 +28,15 @@
                                 <img id="search_icon" src="https://static.thenounproject.com/png/6796212-200.png" alt="search icon">
                             </td>
                             <td width="1%" nowrap>
-                                <input type="submit" id="search_submit" value="Search" />
-                                <input type="submit" id="search_clear" value="Clear" />
+                                <input type="submit" id="search_submit" value="Search" onclick="searchForResults();" />
+                                <input type="submit" id="search_clear" value="Clear" onclick="clearTheResults();" />
                             </td>
                             <td width="1%" nowrap>
                                 &nbsp;
                             </td>
                         </tr>
                     </table>
+                    <div id="search_results"></div>
                 </div>
             </td>
         </tr>
@@ -129,5 +130,6 @@
             </a>
         </div>
     </div>
+    <script src="./travel_recommendation.js"></script>
 </body>
 </html>

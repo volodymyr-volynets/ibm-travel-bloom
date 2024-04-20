@@ -75,3 +75,31 @@
 #submit_form {
     width: 300px;
 }
+#search_results {
+    position: absolute;
+    width: 300px;
+    top: 5em;
+    display: none;
+}
+.tile {
+    width: 300px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.tile_header {
+    font-size: 1.5em;
+    text-align: left;
+}
+.tile_description {
+    width: 300px;
+    text-wrap: wrap;
+    text-align: left;
+}
+.time {
+    background-color: green;
+    color: white;
+    width: 300px;
+    text-wrap: wrap;
+    text-align: left;
+}
